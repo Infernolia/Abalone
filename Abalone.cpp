@@ -77,6 +77,15 @@ void abalone::display()
 	cout << endl;
 }
 
+void abalone::move()
+{
+	/*
+		NW - Decrease Row, SE - Increase Row
+		NE - Decrease Row Increase Col, SW - Increase Row Decrease Col
+		E - Increase Col, W - Decrease Col
+	*/
+}
+
 void abalone::disp()
 {
 	for (int i = 0; i < board.size(); i++)
